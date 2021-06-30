@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumerosPrimosActivity"
+    android:background="#BAA3F8"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificador de números"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar se um número é primo ou não"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/et_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o número"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btn_verificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+
+</LinearLayout>
